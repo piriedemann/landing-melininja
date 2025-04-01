@@ -168,20 +168,32 @@ h1 {
 }
 
 .cta-section {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-    color: black;
+    background-color: #ffffff;
+    padding: 4rem 2rem;
     text-align: center;
-    padding: 5rem 5%;
+    color: #000000;
 }
 
-.cta-section h2 {
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
+    color: #000000;
 }
 
-.cta-section .primary-button {
-    background: black;
-    color: var(--primary-color);
+.cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #000000;
+}
+
+.cta-button-container {
+    display: flex;
+    justify-content: center;
     margin-top: 2rem;
 }
 
@@ -336,6 +348,14 @@ footer {
     
     .interview-link {
         padding: 0.75rem;
+    }
+
+    .cta-content h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-content p {
+        font-size: 1rem;
     }
 }
 
