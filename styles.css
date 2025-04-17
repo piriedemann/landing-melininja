@@ -581,4 +581,27 @@ footer {
     .testimonial-card {
         padding: 1.5rem;
     }
+}
+
+.guarantee-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.guarantee-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.guarantee-content h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.guarantee-content p {
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.6;
 } 
